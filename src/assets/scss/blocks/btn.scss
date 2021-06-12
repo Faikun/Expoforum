@@ -1,0 +1,33 @@
+.btn {
+    border: none;
+    color: $white;
+
+    border-radius: 50px;
+    padding: 10px 30px;
+
+
+    &-blue {
+        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+
+        &:hover {
+            background: linear-gradient(94.26deg, darken(#C89AFC, 20%) 9.51%, darken(#7C6AFA, 20%) 90.23%);
+        }
+    }
+
+    &-purple {
+        background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+
+        &:hover {
+            background: linear-gradient(94.78deg, darken(#DF5950, 20%) 11.19%, darken(#451046, 20%) 93.72%);
+        }
+    }
+
+    &-transparent {
+        background: transparent;
+        border: 1px solid $white;
+
+        &:hover {
+            background: darken($white, 50%);
+        }
+    }
+}
